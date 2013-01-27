@@ -1,0 +1,23 @@
+#pno{
+	float: left;
+	font-size: 30px;
+	padding-top: 6px;
+}
+#title{
+	width: 400px;
+	height: 50px;
+	overflow: auto;
+	padding: 5px 0px 0px 10px;
+}
+#pollImg{
+	height: 200px;
+	margin-left: 30px;
+	margin-bottom:10px;
+}
+.opinion{
+	margin-top:10px;
+	padding-left:30px;
+}
+#question{
+	width:464px;
+}

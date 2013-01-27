@@ -1,0 +1,89 @@
+#footer{
+	width:1022px;
+	height:200px;
+	margin:auto;
+	position:relative; 
+}
+#wrap{
+	width:1024px;
+	height:813px;
+	margin:auto;
+	position:relative;
+	top:2px;
+}
+#content{
+	width:813px;
+	float:left;
+	border:1px solid #123;
+}
+#side_nav{
+	width:203px;
+	float:right;
+	border:1px solid #123;
+}
+#side_nav ul{
+	width:200px;
+	height:500px;
+	background:#fff;
+	border:0px;
+	padding:0px;
+}
+#side_nav li{
+	padding-left:20px;
+	margin:15px 0px;
+}
+#side_nav a{
+	font-size:17px;
+	font-weight:bold;
+}
+#side_nav a:hover{
+	color:blue;
+}
+/* content */
+.problem{
+	width:700px;
+	margin: 0 auto;
+	border:1px solid #ccc;
+	padding:20px;
+	margin-top:30px;
+}
+.pno{
+	font-size:50px;
+	float:left;
+	height:80px;
+}
+.title{
+	width:650px;
+	height: 60px;
+	float: right;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+.pollImg{
+	padding-left:50px;
+	margin-bottom:20px;
+	height:200px;
+	display:block;
+}
+.subject{
+	max-width:750px;
+	min-width:750px;
+	max-height:100px;
+	min-height:100px;
+	margin:10px 0px 10px 50px;
+}
+.object{
+	padding-left: 50px;
+	font-size: 18px;
+	line-height:180%;
+}
+.opinion{
+	padding-left: 50px;
+	margin: 10px 0px;
+	font-size: 18px;
+}
+.moreOpinion{
+	width: 100px;
+	height: 50px;
+	margin-left: 50px;
+}

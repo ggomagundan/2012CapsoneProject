@@ -1,0 +1,80 @@
+.quiz{
+	padding:30px 50px 30px 50px;
+	margin-bottom:10px;
+	border:1px solid #bbb;
+}
+.quiz > span{
+	vertical-align:top;
+	font-weight:bold;
+	font-size:30pt;
+}
+.qtype{
+	vertical-align:middle;
+	height:20px;
+	padding-left:42px;
+	margin-right:5px;
+	font-size:18px;
+	float:left;
+}
+.title{
+	min-width:830px;
+	min-height:50px;
+	max-width:830px;
+	max-height:50px;
+}
+.picture{
+	margin: 3px 0px 10px 43px;
+	width:830px;
+}
+.objectSelect{
+	margin-left:60px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:10px;
+}
+.objectSelect span{
+	vertical-align:middle;
+}
+.sinput{
+	width:770px;
+	height:25px;
+	margin-bottom:5px;
+}
+.sbtn{
+	width:50px;
+	height:30px;
+	position:relative;
+	left:678px;
+	margin:0px 5px;
+}
+.editbtn{
+	width:100px;
+	height:30px;
+	margin:0px 10px;
+	font-size:12px;
+	position:relative;
+	left:645px;
+}
+#submit{
+	width:70px;
+	height:30px;
+	font-size:12px;
+	position:relative;
+	left:497px;
+	margin:20px 0px;
+}
+#footer{
+	width:1022px;
+	height:200px;
+	border:1px solid #123;
+	margin:auto;
+	position:relative; top:4px;
+}
+#swrap{
+	width:982px;
+	margin:auto;
+	position:relative;
+	top:2px;
+	padding:20px;
+	border:1px solid #123;
+}

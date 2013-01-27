@@ -1,0 +1,248 @@
+#wrapContent{
+	width:1024px;
+	margin:auto;
+	position:relative;
+	top:2px;
+}
+/* slide */
+#adSlider{
+	height:200px;
+	width:815px;
+	float:left;
+	display:block;
+}
+#adSlider #slideHolder {
+	z-index : 30;
+	position : absolute;
+}
+#adSlider #slideHolder #slideRunner {
+	width : 813px;/*width size*/
+	height : 200px;
+	overflow : hidden;
+	position : absolute;
+	border:1px solid #123;
+}
+#adSlider #slideHolder img {
+	display : none;
+	position : absolute;
+}
+#adSlider #slideHolder #slideControls {
+	left : 0;
+	bottom : 0;
+	width : 813px;/*width size*/
+	height : 36px;
+	display : none;
+	position : absolute;
+	background : url(images/slide-bg.png) 0 0;
+}
+#adSlider #slideHolder #slideControls p.text {
+	float : left;
+	color : #fff;
+	font-size : 10px;
+	line-height : 16px;
+	margin : 10px 0 0 20px;
+	text-transform : uppercase;
+}
+#adSlider #slideHolder #slideControls #slide-nav {
+	float : right;
+	margin : 6px 15px 0 0;
+}
+#adSlider #slideHolder #slideControls p#slide-nav a {
+	float : left;
+	width : 24px;
+	height : 24px;
+	display : inline;
+	font-size : 11px;
+	margin : 0 5px 0 0;
+	line-height : 24px;
+	font-weight : bold;
+	text-align : center;
+	text-decoration : none;
+	background-position : 0 0;
+	background-repeat : no-repeat;
+}
+#adSlider #slideHolder #slideControls p#slide-nav a.on {
+	background-position : 0 -24px;
+}
+#adSlider #slideHolder #slideControls p#slide-nav a {
+	background-image : url(images/silde-nav.png);
+}
+#slideHolder a{
+	color :	#fff;
+}
+#slideRunner img{
+	width:817px;
+	height:200px;
+}
+/* slide end */
+/* banner */
+#banner{
+	height:871px;
+	width:203px;
+	float:right;
+	border:1px solid #123;
+}
+#banner .banner_img{
+	height:50px;
+	width:200px;
+	margin :1px;
+}
+/* banner end */
+/* category */
+#categoryTab{
+	position:relative;
+	width:813px;
+	height:30px;
+	float:left;
+	font-weight:bold;
+	padding-top:3px;
+	margin-top:4px;
+	border:1px solid #123;
+}
+.categoryContent{
+	float:left;
+	width:100px;
+	height:20px;
+	text-align:center;
+	cursor:pointer;
+	margin-top:5px;
+	border-left:1px solid #aaa;
+}
+.categoryContent:first-child{
+	margin-left:108px;
+}
+.categoryContent:last-child{
+	border-right:1px solid #aaa;
+}
+#category{
+	float:left;
+	width:813px;
+	height:630px;
+	margin-top:2px;
+	border:1px solid #123;
+}
+.cate{
+	width:717px;
+	height:584px;
+	margin:10px 0px 0px 50px;
+	display:none;
+}
+.categoryBtn{
+	position:relative;
+	width:30px;
+	height:25px;
+	text-align:center;
+	padding-top:5px;
+	top:275px;
+	cursor:pointer;
+}
+#categoryLeftBtn{
+	float:left;
+	left:10px;
+}
+#categoryRightBtn{
+	float:right;
+	right:10px;
+}
+.contentImg{
+	width:310px;
+	height:100px;
+	margin: 20px 0px;
+	float:left;
+	overflow:hidden;
+}
+.contentImg img{
+	width:310px;
+	height:100px;
+}
+.imgTitle{
+	position:relative;
+	width:310px;
+	height:20px;
+	padding-left:10px;
+	padding-top:5px;
+	top:-29px;
+	background:#000;
+	opacity:0.5;
+	color:white;
+	overflow:visible;
+	cursor:pointer;
+}
+.imgTitle h1{
+	font-size:13pt;
+}
+.imgLeft{
+	float:left;
+}
+.imgRight{
+	float:right;
+}
+.select, .rightSelect{
+	position:absolute;
+	display:none;
+	width:720px;
+	height:230px;
+	background:#ddd;
+	padding:10px;
+	z-index:1;	
+}
+.selectInfo{
+	width:380px;
+	height:220px;
+	margin:0px 10px 10px 10px;
+	margin-left:10px;
+	float:right;
+	overflow:auto;
+	background:white;
+}
+.selectBtn{
+	position:relative;
+	top:10px;
+}
+.selectInfo h1{
+	font-size:10pt;
+}
+.selectInfo p{
+	font-size:8pt;
+}
+.selectImg{
+	float:left;
+	width:310px;
+	height:100px;
+}
+.rightSelect .selectImg{
+	float:right;
+	width:310px;
+	height:100px;
+}
+.rightSelect .selectInfo{
+	width:380px;
+	height:220px;
+	margin:0px 10px 10px 10px;
+	margin-left:10px;
+	overflow:auto;
+	float:left;
+	background:white;
+}
+.rightSelect .selectBtn{
+	position:relative;
+	top:10px;
+	left:10px;
+}
+.selectImg img{
+	width:310px;
+	height:100px;
+}
+.listView{
+	position:relative;
+	left:600px;
+}
+/* category end */
+/* footer */
+#footer{
+	position:relative;
+	top:40px; left:-1px;
+	width:1022px;
+	height:160px;
+}
+/*footer end*/

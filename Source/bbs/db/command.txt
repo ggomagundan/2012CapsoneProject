@@ -1,0 +1,29 @@
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(1, 'bbs@gmail.com', 0, 0, 'c1 this is test',0,0,'./images/1.png'); //
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(1, 'bbs@gmail.com', 0, 1, 'c1 this is test123',0,0,'./images/r1.png'); //
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(1, 'destiny738@naver.com', 0, 2, 'c1 this is test234',0,0,'./images/r2.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(1, 'bbs@gmail.com', 1, 0, 'c1 this is test1',0,0,'./images/2.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(1, 'bbs@gmail.com', 1, 1, 'c1 this is test345',0,0,'./images/r5.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(1, 'bbs@gmail.com', 1, 2, 'c1 this is test456',0,0,'./images/r3.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(1, 'destiny738@naver.com', 1, 3, 'c1 this is test567',0,0,'./images/r4.png');//
+
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(2, 'bbs@gmail.com', 0, 0, 'c2 this is test',2,0,'./images/2.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(2, 'bbs@gmail.com', 0, 1, 'c2 this is test123',0,0,'./images/r1.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(2, 'destiny738@naver.com', 0, 2, 'c2 this is test234',0,0,'./images/r4.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(2, 'bbs@gmail.com', 1, 0, 'c2 this is test1',1,0,'./images/3.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(2, 'bbs@gmail.com', 1, 1, 'c2 this is test345',0,0,'./images/r5.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(2, 'bbs@gmail.com', 1, 2, 'c2 this is test456',0,0,'./images/r8.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(2, 'destiny738@naver.com', 1, 3, 'c2 this is test567',0,0,'./images/r7.png');//
+
+
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(3, 'bbs@gmail.com', 0, 0, 'c3 this is test1',1,0,'./images/3.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(3, 'bbs@gmail.com', 0, 1, 'c3 this is test345',0,0,'./images/r5.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(3, 'destiny738@naver.com', 0, 2, 'c3 this is test456',0,0,'./images/r8.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(3, 'destiny738@naver.com', 0, 3, 'c3 this is test567',0,0,'./images/r7.png');//
+
+
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(4, 'destiny738@naver.com', 0, 0, 'c4 this is test1',1,0,'./images/3.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(4, 'destiny738@naver.com', 0, 1, 'c4 this is test456',0,0,'./images/r8.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(4, 'destiny738@naver.com', 0, 2, 'c4 this is test567',0,0,'./images/r3.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(4, 'destiny738@naver.com', 0, 3, 'c4 this is test237',0,0,'./images/r4.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(4, 'destiny738@naver.com', 0, 4, 'c4 this is test789',0,0,'./images/r5.png');//
+insert into UserWriteToCommunity (community_id, email, depth1, depth2, content, recommand, guilty, photoPath) values(4, 'destiny738@naver.com', 0, 5, 'c4 this is test069',0,0,'./images/r5.png');//

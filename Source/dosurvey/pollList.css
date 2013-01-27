@@ -1,0 +1,94 @@
+#footer{
+	width:1022px;
+	height:200px;
+	margin:auto;
+	position:relative; 
+}
+/* main */
+#wrap{
+	width:1024px;
+	height:1279px;
+	margin:auto;
+	position:relative;
+	top:2px;
+}
+#content{
+	width:813px;
+	height:1270px;
+	float:left;
+	border:1px solid #123;
+}
+#side_nav{
+	width:203px;
+	float:right;
+	border:1px solid #123;
+}
+#side_nav ul{
+	width:200px;
+	height:500px;
+	background:#fff;
+	border:0px;
+	padding:0px;
+}
+#side_nav li{
+	padding-left:20px;
+	margin:15px 0px;
+}
+#side_nav a{
+	font-size:17px;
+	font-weight:bold;
+}
+#side_nav a:hover{
+	color:blue;
+}
+/* main content */
+.poll{
+	height:100px;
+	margin:20px 20px 0px 20px;
+}
+.poll td{
+	border:1px solid #123;
+}
+.pollPicture{
+	height:100px;
+	width:250px;
+}
+.pollTitle{
+	height:90px;
+	width:336px;
+	font-size:25px;
+	padding-left:20px;
+}
+.pollMaker{
+	height:30px;
+	width:200px;
+	text-align:center;
+	font-size:12px;
+}
+.progress{
+	height:40px;
+	width:200px;
+	text-align:center;
+	font-size:30px;
+}
+#pagination{
+	margin:30px;
+	font-size:15px;
+	text-align:center
+}
+#pagination a, #pagination strong{
+	text-decoration:none;
+	background-color:#f0efde;
+	color:#444;
+	padding:5px;
+	font-family:Tahoma;
+}
+#pagination a:hover{
+	color:#123;
+	background-color:#deddcd;
+}
+#pagination strong{
+	background-color:#c99; color:#fff; font-weight:bold;
+}
+
+}

@@ -1,0 +1,162 @@
+#article_content{
+	width:700px;
+	background-color:#f0e0ef;
+	text-align: center;
+	margin: 120px auto;
+	
+}
+
+
+.articles .article_fabicon, .img_articles .article_fabicon{
+	width:100px;
+	height:60px;
+	background-color:#33bebe;
+	float:left;
+}
+.articles .article_id, .img_articles .article_id{
+	width:200px;
+	height:60px;
+/*	background-color:#3250be;*/
+	float:left;
+}
+.articles .article_message, .img_articles .article_message{
+	width:150px;
+	height:60px;
+/*	background-color:#32be5a;*/
+	float: left;
+}
+.articles .article_exit, .img_articles .article_exit{
+	width:100px;
+	height:60px;
+	background-color:#AAAAAA;
+	float:right;
+}
+.articles .article_calendar,  .img_articles .article_calendar{
+	background-color:#be3267;
+	width:100px;
+	height:130px;
+	float:left;
+}
+.articles .article_contents, .img_articles .article_contents{
+	background-color:#3284be;
+	width:600px;
+	height:130px;
+	float:left;
+}
+.articles .article_date, .img_articles .article_date{
+	width:100px;
+	height:50px;
+	background-color:#6032be;
+	float:left;
+}
+.articles .article_recommand , .img_articles .article_recommand{ 
+	background-color:#be8b32;
+	width:100px;
+	height:50px;
+	float:right;
+	margin-right:50px;
+}
+
+.article_img{
+	width:700px;
+	height:100px;
+	background-color:#112233;
+}
+
+
+.reply{
+	width:700px;
+	
+}
+
+.article_reply_picture, .article_reply_picture>img{
+	float:left;
+	width:100px;
+	height:70px;
+}
+
+.article_reply_textarea{
+	width:700px;
+	height:80px;
+	background-color:#d8d8d8;
+}
+
+.article_reply_box{
+	width:600px;
+	float:right;
+}
+
+.article_reply_id{
+	
+	width:590px;
+	text-align:left;
+	margin-left:10px;
+	float:right;
+	
+}
+
+.guiltyTimes{
+	width:20px;
+	margin-left:5px;
+	display: inline-block;
+}
+
+.reply_write_time{
+	display: inline-block;
+	float:right;
+	margin-right:15px;
+	font-size:11px;
+}
+
+.guilty_img{
+	margin-left:5px;
+}
+
+.article_reply_value{
+	
+	width:500px;
+	text-align:left;
+	margin-left:15px;
+	float:left;
+	
+}
+
+.reply_picture{
+	
+	width:100px;
+	height:70px;
+	background-color:#398B00;
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.reply_value {
+    width: 500px;
+    overflow:hidden;
+    margin-top:10px;
+    margin-right:10px;
+    background-color:#ffffff;
+    scrollbar-face-color:#ffffff;
+    border:0;
+    filter:chroma(color=ffffff);
+    resize: none;
+    overflow:hidden;
+    float:right;
+   height:30px;
+   
+}
+
+
+.reply_send{
+	
+	float:right;
+	width:60px;
+	height:25px;
+	margin:10px 5px 0px 0px;
+	padding-top:5px;
+	background-color:#398b00;
+	text-align:center;
+	vertical-align: middle;
+	display: inline;
+}

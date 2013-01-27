@@ -1,0 +1,72 @@
+#footer{
+	width:1022px;
+	height:200px;
+	margin:auto;
+	position:relative; 
+}
+/* main */
+#wrap{
+	width:1024px;
+	height:1279px;
+	margin:auto;
+	position:relative;
+	top:2px;
+}
+#content{
+	width:1022px;
+	height:1270px;
+	float:left;
+	border:1px solid #123;
+}
+
+/* main content */
+.poll{
+	height:100px;
+	margin:20px 20px 0px 20px;
+}
+.poll td{
+	border:1px solid #123;
+}
+.pollPicture{
+	height:100px;
+	width:250px;
+}
+.pollTitle{
+	height:90px;
+	width:500px;
+	font-size:15px;
+	padding-left:20px;
+}
+.pollMaker{
+	height:30px;
+	width:200px;
+	text-align:center;
+	font-size:12px;
+}
+.progress{
+	height:40px;
+	width:200px;
+	text-align:center;
+	font-size:30px;
+}
+#pagination{
+	margin:30px;
+	font-size:15px;
+	text-align:center
+}
+#pagination a, #pagination strong{
+	text-decoration:none;
+	background-color:#f0efde;
+	color:#444;
+	padding:5px;
+	font-family:Tahoma;
+}
+#pagination a:hover{
+	color:#123;
+	background-color:#deddcd;
+}
+#pagination strong{
+	background-color:#c99; color:#fff; font-weight:bold;
+}
+
+}

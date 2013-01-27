@@ -1,0 +1,22 @@
+#bottom_adbar{
+/*	background-color:#9880e3;*/
+	width:100%;
+	margin:5px auto;
+	
+}
+#bottom_adbar a{
+	display: block;
+	height: 38px;
+	width:100%;
+	text-align: center;
+}
+
+#bottom_adbar img{
+	
+	height: 38px;
+	width: 212px;
+	margin-left:25%;
+	
+}
+
+

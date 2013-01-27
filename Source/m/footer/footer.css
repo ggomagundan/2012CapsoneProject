@@ -1,0 +1,25 @@
+footer{
+
+	margin 0;padding 0;
+	
+}
+
+#mFooter{
+
+}
+a{
+	text-decoration: none;
+}
+#navi{
+	width:100%;
+	display: block;
+}
+
+a:link, a:hover, a:active{
+	-moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+}
+
+

@@ -1,0 +1,94 @@
+#footer{
+	width:1022px;
+	height:200px;
+	margin:auto;
+}
+/* main */
+#wrap{
+	width:1024px;
+	height:1107px;
+	margin:auto;
+	position:relative;
+	top:2px;
+}
+#content{
+	width:813px;
+	height:1100px;
+	float:left;
+	border:1px solid #123;
+}	
+#side_nav{
+	width:203px;
+	float:right;
+	border:1px solid #123;
+}
+#side_nav ul{
+	width:200px;
+	height:500px;
+	background:#fff;
+	border:0px;
+	padding:0px;
+}
+#side_nav li{
+	padding-left:20px;
+	margin:15px 0px;
+}
+#side_nav a{
+	font-size:17px;
+	font-weight:bold;
+}
+#side_nav a:hover{
+	color:blue;
+}
+/* main content */
+#pollImg{
+	width:300px;
+	height:200px;
+}
+.pollTable{
+	margin:40px 40px 0px 40px;
+	width:730px;
+}
+.article{
+	vertical-align:middle;
+	padding-left:20px;
+}
+.pollTable td{
+	margin:10px;
+	border:1px solid #aaa;
+}
+.label{
+	padding-left:20px;
+	height:50px;
+	font-weight:bold;
+}
+.slabel{
+	width:150px;
+}
+#tdPollImg{
+	width:300px;
+	height:200px;
+}
+#title{
+	font-size:30px;
+	padding-left:20px;
+	font-weight:bold;
+	overflow:auto;
+}
+#pollDes{
+	margin-top:10px;
+}
+#desc{
+	padding:10px 10px 10px 20px;
+	overflow:auto;
+	height:400px;
+	vertical-align:top;
+}
+.doSurvey{
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	position:relative;
+	left:158px;
+	margin:30px 0px 0px 30px;
+}

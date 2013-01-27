@@ -1,0 +1,169 @@
+#wrapCommunity{
+	width:1024px;
+	margin:auto;
+	position:relative;
+	top:2px;
+}
+#footer{
+	width:1022px;
+	height:200px;
+	margin:auto;
+}
+.communityTitle{
+	width:1024px;
+	height:202px;
+}
+
+/*
+ * Main
+ */ 
+#communityMain{
+	width:815px;
+/*	height:960px; */
+	margin-top:2px;
+	background:#abc;
+	float:left;
+	margin-bottom:15px;
+}
+
+#communityCreate{
+	width:815px;
+/*	height:960px; */
+	margin-top:2px;
+	float:left;
+	margin-bottom:15px;
+}
+
+#communityList{
+	width:815px;
+/*	height:960px; */
+	margin-top:2px;
+	background:#abc;
+	float:left;
+	margin-bottom:15px;
+}
+
+#communityList li{
+	height:50px;	
+}
+
+#communityList .doorPicture{
+	width:250px;
+	margin:2px;
+	float:left;
+}
+
+#communityList .doorPicture img{
+	width:240px;
+	height:40px;
+	
+}
+
+#communityList .community_NameDesc{
+	width:270px;
+	margin:2px;
+	float:left;
+}
+
+#communityList .create_id{
+	width:200px;
+	margin:2px;
+	float:left;
+}
+
+#communityList .join_button{
+	width:78px;
+	margin:2px;
+	float:left;
+}
+
+#communityJoin{
+	width:815px;
+/*	height:960px; */
+	margin-top:2px;
+	float:left;
+	border:1px solid #123;
+	margin-bottom:15px;
+}
+
+#communityJoin .joinTable{
+	margin: 40px 40px 0px 40px;
+	width: 730px;
+}
+
+#communityJoin .joinTable td{
+	margin:10px;
+	border:1px solid #aaa;
+}
+
+#communityJoin .joinTable .doorPicture{
+	width:730px;
+	height:200px;
+}
+
+#communityJoin .joinTable .Picture{
+	width:730px;
+	margin:0;
+	height:auto;
+}
+
+#communityJoin .joinTable .label{
+	padding-left:20px;
+	height:50px;
+	font-weight:bold;
+}
+
+#communityJoin .joinTable .article{
+	padding-left:20px;
+	padding-right:20px;	
+}
+
+#communityJoin .joinTable textarea{
+	padding-left:20px;
+	width:710px;
+	height:200px;
+	border:0px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+#communityJoin .agree{
+	padding-right:40px;
+	float:right;
+}
+
+#communityJoin .agree button{
+	float:right;
+}
+
+/*
+ * Side
+ */ 
+#communitySide{
+	width:205px;
+	height:600px;
+	margin-top:2px;
+	background:#abc;
+	float:right;
+}
+#communitySide h3{
+	width:205px;
+	margin-top:20px;
+	text-align:center;
+}
+.list div{
+	width:205px;
+	height:15px;
+	padding:5px;
+	overflow:hidden;
+}
+#communitySide h4{
+	width:195px;
+	text-align:right;
+	padding-right:10px;
+}
+.vdiver{
+	width:205px;
+	text-align:center;
+	padding:10px 0px;
+}

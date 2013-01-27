@@ -1,0 +1,183 @@
+/* head */
+header{
+	width:1022px;
+	height:84px;
+	padding-top:20px;
+	background:#ccc;
+	border:1px solid #123;
+	margin:0 auto;
+}
+#headerBackground{
+	width:1022px;
+	background:#ccc;
+	margin:auto;
+}
+header form{
+	float:right;
+	margin-top:20px;
+}
+header table{
+	border-collapse: separate;
+	margin-right:10px;
+}
+.formText{
+	padding-bottom:2px;
+}
+header td{
+	padding-left:10px;
+}
+.logInput{
+	width:155px;
+}
+header td label{
+	font-size:11px;
+}
+#persistBox{
+	vertical-align:middle;
+}
+#perLogin{
+	cursor:pointer;
+}
+#userIcon{
+	width:66px;
+	height:66px;
+	text-align:center;
+	padding:0;
+}
+#userImg{
+	width:68px;
+	height:68px;
+	padding:0;
+	border: 1px solid #123;
+}
+#logForm{
+	margin-right:30px;
+	margin-top:0px;
+	width:260px;
+}
+#userId{
+	font-size:15px;
+}
+#logForm td{
+	height:30px;
+}
+#joinBtn{
+	cursor:pointer;
+}
+/* head end */
+
+/* nav */
+nav{
+	margin:0 auto;
+	height:32px;
+	width:1024px;
+}
+ul{
+	width:1017px;
+	height:30px;
+	background:#ccc;
+	margin:2px 0px;
+	border:1px solid #123;
+	padding-right:5px;
+}
+.tabContent{ 
+	width:1022px;
+	height:0px;
+	background:#fff;
+	position:absolute;
+	display:none;
+	border:1px solid #123;
+	z-index:40;
+}
+#tab li{
+	float:right;
+	width:120px;
+	height:20px;
+	margin-top:5px;
+	text-align:center;
+	cursor:pointer;
+	border-left:1px solid #aaa;
+}
+#tab li a label{
+	cursor:pointer;
+}
+#tabCloseBtn{
+	width:25px; height:20px;
+	background:#aaa;
+	position:relative;
+	left:990px;
+	top:170px;
+	text-align:center;
+	display:none;
+	z-index:40;
+	padding-top:3px;
+	cursor:pointer;
+}
+.tabDiver:first-child{
+	margin-left:10px;
+}
+.tabDiver{
+	width:326px;
+	height:180px;
+	margin:10px 0px 10px 10px;
+	border:1px solid #aaa;
+	float:left;
+}
+.tabDiver h1{
+	text-align:center;
+	font-size:15pt;
+	display:block;
+}
+.tabDiver h1:first-child{
+	margin-top:10px;
+}
+.tabMenu{
+	width:100px;
+	height:150px;
+	float:left;
+	text-align:center;
+}
+.tabMenu img{
+	width:90px;
+	height:140px;
+	margin-top:5px;
+}
+.tabMenu h2{
+	padding-top:6px;
+}
+.rightMenu{
+	float:right;
+	display:block;
+	font-size:8pt;
+	padding-right:10px;
+}
+
+.tabDiver form select{
+	width:246px;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.tabDiver form button{
+	width:50px;
+	margin:8px 10px 10px 0px;
+}
+#surveyTab a{
+	padding-left:20px;
+	margin-top:2px;
+	display:block;
+}
+.comm a, h2{
+	float:left;
+}
+#community2 a{
+	padding-left:20px;
+	margin-top:2px;
+	display:block;
+}
+.rightMenu h2{
+	font-size:9pt;
+}
+#openScrap{
+	cursor:pointer;
+}
+/* nav end */

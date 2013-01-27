@@ -1,0 +1,219 @@
+/*
+body{
+	background-color: blue;
+	font-family: "gulim";
+}*/
+
+#article{
+	width:700px;
+	height:240px;
+	background-color:#DFDFDF;
+	text-align: center;
+	margin: 20px auto;
+	margin-top: 60px;
+}
+
+.fir{
+	height:60px;
+	display:block;
+}
+
+.sec{
+	height:130px;
+	display:block;
+}
+
+	
+.thir{
+	height:50px;
+	display:block;
+}
+
+.four{
+	width: 700px;
+	height:50px;
+	display:block;
+}
+
+
+
+
+#fabicon, #fabicon>img{
+	width:100px;
+	height:inherit;
+/*	background-color:#33bebe;*/
+	float:left;
+	
+}
+#id{
+	width:200px;
+	height:inherit;
+/*	background-color:#3250be;*/
+	float:left;
+}
+#message{
+	width:150px;
+	height:inherit;
+/*	background-color:#32be5a;*/
+	float: left;
+}
+#exit{
+	width:100px;
+	height:inherit;
+	background-color:#AAAAAA;
+	float:right;
+}
+#calendar{
+	background-color:#be3267;
+	width:100px;
+	height:inherit;
+	float:left;
+	
+}
+
+.cal_year{
+	
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.cal_month{
+	font-size: 20px;
+	text-align:left;
+}
+
+.cal_day{
+	font-size: 60px;
+}
+
+
+#content{
+	background-color:#3284be;
+	width:600px;
+	height:inherit;
+	float:left;
+}
+#imgbox{
+	width:inherit;
+	height:inherit;
+	background-color:#6032be;
+	float:left;
+}
+
+
+#recommand{
+	background-color:#be8b32;
+	width:100px;
+	height:inherit;
+	float:right;
+	margin-right:50px;
+}
+
+#write{
+	background-color:#7abe4d;
+	width:100px;
+	height:inherit;
+	float:right;
+	margin-right:20px;
+	
+}
+
+
+.articles{
+	width:700px;
+	height:320px;
+	background-color:#DFDFDF;
+	text-align: inherit;
+	margin-left: auto;
+	margin-top: 3px;
+	border:2px dotted #FFFFFF;
+	margin-bottom:20px;
+	
+}
+
+.img_articles{
+	width:700px;
+	height:420px;
+	
+	text-align: inherit;
+	margin-left: auto;
+	margin-top: 3px;
+	
+}
+
+.inputimg{
+	float:left;
+}
+
+#imgPreview{
+
+	background-color:#9F9F9F;
+	position: fixed;
+	
+	
+	border:#000000 1px solid;
+}
+
+#previewImage{
+	
+	text-align: center;
+	vertical-align:bottom;
+	
+}
+
+#previewExit{
+	width:30px;
+	height:30px;
+	background-color:#FFFFFF;
+	float:right;
+	
+}
+
+#more{
+	width:500px;
+	height:40px;
+	margin:auto;
+	background-color:#FF0000;
+	margin-top:50px;
+	padding-top:15px;
+}
+
+
+#page{
+	
+	margin-left: 350px;
+	display:inline-block;
+	
+}
+		
+.pagination{
+	
+	background-color: #9F9F9F;
+    height: 30px;
+    width: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    display:inline-block;
+    margin: 20px;
+		
+	
+}
+
+.articles {
+    margin-top: 40px;
+}
+
+#admin{
+	margin-top:20px;
+	float:right;
+	background-color:#EEEEEE;
+	padding:5px;
+	
+}
+
+.article_reply_picture{
+	width:100px;
+	height:70px;
+}

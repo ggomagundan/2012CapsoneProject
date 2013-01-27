@@ -1,0 +1,55 @@
+#footer{
+	width:1022px;
+	height:200px;
+	margin:auto;
+	position:relative; 
+	top:2px;
+}
+#content{
+	width:1022px;
+	margin:auto;
+	border:1px solid #123;
+}
+.problem{
+	width:900px;
+	margin: 0 auto;
+	border:1px solid #ccc;
+	padding:20px;
+	margin-top:30px;
+}
+.pno{
+	font-size:50px;
+	float:left;
+	height:80px;
+}
+.title{
+	width:850px;
+	height: 60px;
+	float: right;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+.pollImg{
+	padding-left:50px;
+	height:200px;
+	display:block;
+}
+.subject{
+	max-width:750px;
+	min-width:750px;
+	max-height:100px;
+	min-height:100px;
+	margin:10px 0px 10px 50px;
+}
+.object{
+	margin: 10px 0px 0px 50px;
+}
+.objectQ{
+	font-size:18px;
+	margin-left:10px;
+}
+#submitBtn{
+	width:100px;
+	height:30px;
+	margin:10px 0px 30px 500px;
+}

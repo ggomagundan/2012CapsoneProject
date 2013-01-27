@@ -1,0 +1,19 @@
+#top_adbar{
+/*	background-color:#2880e3;*/
+	width:100%;
+	margin:5px auto;
+}
+
+#top_adbar a{
+	display: block;
+	height: 38px;
+	width:100%;
+	text-align: center;
+}
+
+#top_adbar img{
+	
+	height: 38px;
+	width: 212px;
+	margin-left:25%;
+}

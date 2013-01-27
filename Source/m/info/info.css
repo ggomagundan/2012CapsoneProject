@@ -1,0 +1,28 @@
+.info{
+	margin: auto;
+	padding-top:15px;
+	padding-bottom:10px;
+	width: 100%;
+	color:#aeb8c3;
+	background-color:#F8F8F8;
+	text-decoration:none;
+	font-size: 11px;
+	text-align:center;
+	/*height:25px;*/
+
+}
+
+a:link, a:hover, a:active{
+	-moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+}
+
+.info a{
+	
+	color:#aeb8c3;
+	text-decoration:none;
+	font-size: 11px;
+	margin-bottom:5px;
+}

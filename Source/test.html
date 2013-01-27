@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>HTML5 File example</title>
+<script type="text/javascript" src="../javascript/jquery.js"></script>
+<style type="text/css">
+<!--
+.images { 
+        height:75px;
+        width:75px; 
+        border:0px; 
+}
+-->
+</style>
+<script>
+function imagesSelected(myFiles) {
+	var f = myFiles[0];
+	var imageReader = new FileReader();
+	imageReader.onload = (function(aFile) {
+		return function(e) {
+			var span = document.createElement('span');
+			span.innerHTML = ['<img class="images" src="', e.target.result,'" title="', aFile.name, '"/>'].join('');
+			document.getElementById('thumbs').insertBefore(span, null);
+			$('#input').value(e.target.result);
+		};
+	})(f);
+	imageReader.readAsDataURL(f);
+}
+
+function dropIt(e){ 
+	imagesSelected(e.dataTransfer.files); 
+	e.stopPropagation();  
+	e.preventDefault();   
+}  
+</script>
+
+</head>
+<body>
+	<center>
+	<table width="485" border="1" cellspacing=0 cellpadding=5>
+		<tr>
+			<td height="105" ondragenter="return false" ondragover="return false" ondrop="dropIt(event)">    
+			<output id="thumbs"></output> 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Drag & drop or choose images from your local file system: 
+				<input type="file" id="input" size="10" multiple="true" onchange="imagesSelected(this.files)" />
+				</p>
+			</td>
+		</tr>
+	</table>
+	</center>
+</body>
+</html>

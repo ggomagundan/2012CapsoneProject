@@ -1,0 +1,59 @@
+#rankNavi{
+
+/*	background-color: #F8F8F8;*/
+	background-color:#6881EE;
+    border-top-color: #D2D4DD;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 30px;
+    padding-left: 7px;
+    margin:5px auto;
+    width:100%;
+
+}
+
+
+#rankNavi li {
+    float: left;
+    height: 30px;
+    width: 80%;
+    list-style-type: none;
+    
+}
+#rankNavi li a>span {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 0.929em;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:10px;
+    position: relative;
+    white-space: nowrap;
+    width: 25px;
+    
+}
+
+
+#rankNavi li span.rankVal{
+	
+	width: 20px;
+	height:17px;
+	background-color:#FF2020;
+	text-align: center;
+	vertical-align: top;
+	
+}
+
+#rankNavi li span.rankCont{
+	background-color:#000000;
+	width: 70%;
+	text-align:left;
+	padding-left:10px;
+	height:17px;
+}
+
+#rankNavi li span .desc{
+	background-color:#000000;
+	
+}

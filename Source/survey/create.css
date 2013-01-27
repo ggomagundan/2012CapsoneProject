@@ -1,0 +1,129 @@
+#title{
+	width:300px;
+}
+#sid{
+	width:300px;
+}
+
+#swrap{
+	width:982px;
+	height:900px;
+	margin:auto;
+	position:relative;
+	top:2px;
+	padding:20px;
+	border:1px solid #123;
+}
+#constraint{
+	width:942px;
+	height:200px;
+	padding:20px;
+	overflow:auto;
+	border:1px solid #123;
+}
+#constraintcheck{
+	text-align:right;
+	width:982px;
+	float:right;
+}
+#constclick{
+	cursor:pointer;
+	vertical-align:middle;
+}
+#constok{
+	vertical-align:middle;
+}
+#checkid{
+	font-size:10pt;
+}
+.sbtitle{
+	background:url("../images/bstar.png") no-repeat 0px center ;
+}
+.sytitle{
+	background:url("../images/ystar.png") no-repeat 0px center ;
+}
+.sbtitle, .sytitle{
+	margin-right:10px;
+	padding-left:20px;
+	width:120px;
+	float:left;
+}
+.row{
+	height:20px;
+	padding-top:10px;
+}
+.inforow{
+	height:15px;
+	font-size:10pt;
+	padding-top:0px;
+}
+.alignup{
+	vertical-align:top;
+	padding-top:5px;
+}
+.sinput{
+	width:150px;
+	float:left;
+}
+#etccate{
+	display:none;
+}
+.empty{
+	width:100px;
+	height:100px;
+	float:left;
+	display:block;
+}
+#imgbox{
+	width:310px;
+	height:100px;
+	border:1px solid #123;
+	display:block;
+	margin-top:10px;
+	text-align:center;
+}
+.inputimg{
+	width:310px;
+	height:100px;
+	border:0px; 
+}
+.itext{
+	max-width:310px;
+	max-height:160px;
+	overflow:auto;
+}
+#leftsection{
+	width:468px;
+	height:550px;
+	margin:20px 0px 0px 0px;
+	float:left;
+}
+#rightsection{
+	width:468px;
+	height:550px;
+	float:right;
+	margin-top:20px;
+}
+#sageinput{
+	float:left;
+	width:50px;
+}
+#eageinput{
+	width:50px;
+}
+#infographic{
+	width:448px;
+	height:290px;
+	margin:10px;
+	border:1px solid #123;
+}
+#submit{
+	position:relative;
+	top:600px;
+}
+#footer{
+	width:1022px;
+	height:200px;
+	margin:auto;
+	position:relative; top:4px;
+}

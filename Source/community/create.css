@@ -1,0 +1,204 @@
+
+/*box*/
+.checkbox{
+	position:absolute;
+	left:190px;
+	margin-top:-10px;
+	width:220px;
+	background-color:#eee;
+	color:red;
+	font-weight:bold;
+}
+.checkli{	
+	font-size:10px;
+	height:5px;
+	list-style-type:none;
+	line-height:5px;
+}
+/*boxend*/
+#msg{
+	background: #ddd;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	counter-reset: fieldsets;
+	padding: 5px 20px;
+	width: 775px;
+	margin-bottom:10px;
+	color:red;
+	font-weight:bold;
+}
+/*form*/
+#createForm {
+    background: #ddd;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	counter-reset: fieldsets;
+	padding: 20px;
+	width: 985px;	
+}
+
+		
+#createForm fieldset {
+	border: none;
+	margin-bottom: 10px;
+}
+		
+#createForm fieldset:last-of-type {
+	margin-bottom: 0;
+}
+			
+#createForm legend {
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 1px #e0e0e0;
+}
+				
+#createForm > fieldset > legend:before {
+	content: "Step " counter(fieldsets) " : ";
+	counter-increment: fieldsets;
+}
+				
+#createForm fieldset fieldset legend {
+	color: #000;
+	font-size: 13px;
+	font-weight: normal;
+	padding-bottom: 0;
+}
+			
+#createForm ol li {
+	background: #b9cf6a;
+	background: rgba(255,255,255,.3);
+	border-color: #e3ebc3;
+	border-color: rgba(255,255,255,.6);
+	border-style: solid;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+}
+							
+#createForm ol ol li {
+	background: none;
+	border: none;
+	float: left;
+}
+			
+#createForm label {
+	background-image:url('circle.png');
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:25px;
+	float: left;
+	font-size: 13px;
+	width: 110px;
+}
+				
+#createForm fieldset fieldset label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+					
+					
+#createForm fieldset fieldset label:hover {
+	cursor: pointer;
+}
+				
+#createForm input:not([type=radio]) {
+	background: #ffffff;
+	border: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: 13px �������,����,����;
+	outline: none;
+	padding: 5px;
+	width: 600px;
+}
+					
+#createForm input:not([type=submit]):focus {
+	background: #eee;
+}
+					
+				
+#createForm button {
+	margin-left:300px;
+	width:90px;
+	height:30px;
+	padding:5px 6px 3px;
+	-webkit-border-radius:16px;
+	-moz-border-radius:16px;
+	-khtml-border-radius: 16px;
+	border-radius: 16px;
+	position:relative;
+	top:5px;
+	
+	border:#d0d0d0;
+	font-family:���� ���,Arial;
+	font-weight:800;
+	color:#111;
+	text-align:center;
+	vertical-align:middle;
+	overflow:hidden;
+	
+	background-image: linear-gradient(bottom, rgb(96,98,110) 10%, rgb(178,184,217) 55%, rgb(135,143,173) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(96,98,110) 10%, rgb(178,184,217) 55%, rgb(135,143,173) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(96,98,110) 10%, rgb(178,184,217) 55%, rgb(135,143,173) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(96,98,110) 10%, rgb(178,184,217) 55%, rgb(135,143,173) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(96,98,110) 10%, rgb(178,184,217) 55%, rgb(135,143,173) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		right bottom,
+		right top,
+		color-stop(0.1, rgb(96,98,110)),
+		color-stop(0.55, rgb(178,184,217)),
+		color-stop(1, rgb(135,143,173))
+	);
+	filter:alpha(opacity=70);
+	opacity:0.7;
+	-moz-opacity:0.7;
+}
+					
+#createForm button:hover {
+	color:#999;
+	text-shadow:rgb(255,255,255) 0px 0px 5px;
+	top:6px;
+}
+
+textarea{
+	max-width:610px;
+	min-width:610px;
+	max-height:100px;
+	min-height:100px;
+}
+.imgbox{
+	width:150px;
+	height:150px;
+	float:right;
+	border:1px solid #fff;
+	text-align:center;
+	margin-right:17px;
+	margin-top:5px;
+}
+#lastli{
+	height:160px;
+}
+.inputimg{
+	width:150px;
+	height:150px;
+}
+/*form end*/
